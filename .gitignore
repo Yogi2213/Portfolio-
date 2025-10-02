@@ -1,0 +1,43 @@
+# Database configuration
+database/connection.php
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Uploaded files (keep directory structure but ignore content)
+user/images/*
+!user/images/.gitkeep
+admin/images/*
+!admin/images/.gitkeep
+
+# Cache
+cache/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.sql.gz
